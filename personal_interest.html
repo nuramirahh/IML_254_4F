@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Personal Interest</title>
+  <link rel="stylesheet" href="resource/css/style.css" type="text/css">
+  <style>
+    .title1 {
+      font-family: sans-serif;
+      text-align: center;
+      margin: 40px auto 30px;
+    }
+
+    .flip-card-container {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin-bottom: 40px; /* Add space between sections */
+    }
+
+    .flip-card {
+      width: 300px;
+      height: 450px;
+      margin: auto;
+      perspective: 1000px; /* Add perspective to enable the 3D effect */
+    }
+
+    .flip-card-inner {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      transition: transform 0.6s;
+      transform-style: preserve-3d;
+    }
+
+    .flip-card:hover .flip-card-inner {
+      transform: rotateY(180deg); /* Rotate the card on hover */
+    }
+
+    .flip-card-front, .flip-card-back {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      backface-visibility: hidden; /* Hide the back face when not visible */
+    }
+
+    .flip-card-front {
+      background-color: #fff;
+    }
+
+   .flip-card-back {
+     background-color: Bisque; /* Change the background color to Bisque */
+     transform: rotateY(180deg); /* Position the back face */
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+}
+   
+
+    .flip-card-back img {
+      width: 200px;
+      height: 200px;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="topnav">
+    <a href="index.html">Home</a>
+    <a href="about_me.html">About Me</a>
+    <a href="contact_me.html">Contact Me</a>
+    <a href="family.html">My Family</a>
+    <a href="friends.html">My Friends</a>
+    <a href="education.html">My Education</a>
+    <a class="active" href="personal_interest.html">Personal Interest</a>
+  </div>
+
+<br><br>
+
+<div class="title"> My Personal Interest </div>
+
+
+  <center>
+    <div class="title1" style="font-family: Courier, monospace; color: #811331;">
+
+      <p>Watching movies is one of my personal interests and below are some movie and a few anime series that I like:</p>
+      <h1>English Movies</h1>
+
+    </div>
+</center>
+
+  <div class="flip-card-container">
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="resource/image/old1.jpg" alt="Card Image" style="width:100%; height:100%;">
+        </div>
+        <div class="flip-card-back" style="font-family: Courier, monospace; color: #811331;">
+          <img src="resource/image/old1.jpg" alt="Back Image">
+          <h2>LOLITA 1997</h2>
+          <p>The film is about a middle-aged professor who is sexually attracted to adolescent girls he calls "nymphets". Obsessed with the girl, he eventually gains control over her after he takes her cross-country with him.</p>
+        </div>
+      </div>
+    </div>
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="resource/image/old2.jpg" alt="Card Image" style="width:100%; height:100%;">
+        </div>
+        <div class="flip-card-back" style="font-family: Courier, monospace; color: #811331;">
+          <img src="resource/image/old2.jpg" alt="Back Image">
+          <h2>GENTLEMEN PREFER BLONDES</h2>
+          <p>Lorelei Lee and Dorothy Shaw are American showgirls and best friends, although the two are very different. </p>
+        </div>
+      </div>
+    </div>
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="resource/image/old3.jpg" alt="Card Image" style="width:100%; height:100%;">
+        </div>
+        <div class="flip-card-back" style="font-family: Courier, monospace; color: #811331;">
+          <img src="resource/image/old3.jpg" alt="Back Image">
+          <h2>WIZARD OF OZ</h2>
+          <p>The Wizard of Oz is a 1939 American musical fantasy film and it was primarily directed by Victor Fleming, who left production to take over the troubled Gone with the Wind.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <center>
+    <div class="title1" style="font-family: Courier, monospace; color: #811331;">
+      <h1>Thai Movies</h1>
+    </div>
+</center>
+
+
+  <div class="flip-card-container">
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="resource/image/thai1.jpg" alt="Cat Image 1" style="width:100%; height:100%;">
+        </div>
+        <div class="flip-card-back" style="font-family: Courier, monospace; color: #811331;">
+          <img src="resource/image/thai1.jpg" alt="Back Image">
+          <h2>CHERRY MAGIC</h2>
+          <p>Shy and reserved Achi has turned 30 and discovers that he has been given the power to read people's minds when he touches them.</p>
+        </div>
+      </div>
+    </div>
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="resource/image/thai2.jpg" alt="Cat Image 2" style="width:100%; height:100%;">
+        </div>
+        <div class="flip-card-back" style="font-family: Courier, monospace; color: #811331;">
+          <img src="resource/image/thai2.jpg" alt="Back Image">
+          <h2>I FINE..THANK YOU..LOVE YOU</h2>
+          <p>A Japanese girl, Kaya, dumps her Thai boyfriend Yim because he cannot speak English and Kaya cannot speak Thai. </p>
+        </div>
+      </div>
+    </div>
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="resource/image/thai3.jpg" alt="Cat Image 3" style="width:100%; height:100%;">
+        </div>
+        <div class="flip-card-back" style="font-family: Courier, monospace; color: #811331;">
+          <img src="resource/image/thai3.jpg" alt="Back Image">
+          <h2>PEE MAK</h2>
+          <p>The story is set in mid-19th century Siam, during the era of King Mongkut and at the height of the Rattanakosin Dynasty, when Siam was plagued with wars with its neighboring kingdoms.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <center>
+    <div class="title1" style="font-family: Courier, monospace; color: #811331;">
+      <h1>Anime</h1>
+    </div>
+</center>
+
+  <div class="flip-card-container">
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="resource/image/anime1.jpg" alt="Hobby Image 1" style="width:100%; height:100%;">
+        </div>
+        <div class="flip-card-back" style="font-family: Courier, monospace; color: #811331;">
+          <img src="resource/image/anime1.jpg" alt="Back Image">
+          <h2>DEMON SLAYER</h2>
+          <p>In Taishō era Japan, a secret organization known as the "Demon Slayer Corps" has waged a war against demons for centuries. </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="resource/image/anime2.jpg" alt="Hobby Image 2" style="width:100%; height:100%;">
+        </div>
+        <div class="flip-card-back" style="font-family: Courier, monospace; color: #811331;">
+          <img src="resource/image/anime2.jpg" alt="Back Image">
+          <h2>ATTACK ON TITAN</h2>
+          <p>In a world where giant humanoid Titans prey on humans, Eren joins the scouting legion to get revenge on the monsters who killed everyone in his town. </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="resource/image/anime3.jpg" alt="Hobby Image 3" style="width:100%; height:100%;">
+        </div>
+        <div class="flip-card-back" style="font-family: Courier, monospace; color: #811331;">
+          <img src="resource/image/anime3.jpg" alt="Back Image">
+          <h2>DAKARETAI OTOKO 1-NI ODOSARETE IMASU</h2>
+          <p>Takato Saijou has held the title of "Sexiest Man of the Year" for five years running. </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<footer>
+  &copy; 2024 Nur Amirah. All rights reserved.
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Contact</title>
+  <link rel="stylesheet" href="resource/css/style.css" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-...">
+
+  <style>
+    /* Style for the Instagram icon */
+    .social-media-icons {
+      margin-top: 20px; /* Add spacing from the navigation bar */
+      text-align: center; /* Center the icons and text */
+    }
+
+    .social-media-icons a.instagram-icon {
+      font-size: 150px; /* Adjust the size of the icon */
+      color: #833AB4; /* Original color of the Instagram icon */
+      text-decoration: none; /* Remove underline */
+      display: inline-block; /* Use inline-block to align items horizontally */
+      margin-bottom: 20px; /* Add spacing between the icon and text */
+    }
+
+    .social-media-icons a.instagram-icon span {
+      font-size: 70px; /* Adjust the size of the font */
+      text-decoration: underline; /* Underline the text */
+      color: #673147; /* Color for the text */
+    }
+
+    /* Style for the video container */
+    .video-container {
+      float: left; /* Float the container to the left */
+      width: 50%; /* Set the width to 50% to make it occupy half of the container */
+      text-align: center; /* Center the video */
+    }
+
+    video {
+      width: 80%; /* Set the width of the video */
+      max-width: 100%; /* Ensure the video does not exceed its container */
+      border-radius: 15px; /* Make the video border curve */
+    }
+
+    /* Style for the image */
+    .image-container {
+      float: right; /* Float the container to the right */
+      width: 50%; /* Set the width to 50% to make it occupy half of the container */
+      text-align: center; /* Center the image */
+    }
+
+    img {
+      width: 80%; /* Set the width of the image */
+      max-width: 100%; /* Ensure the image does not exceed its container */
+      border-radius: 15px; /* Make the image border curve */
+    }
+
+    /* Style for the GIF */
+    .gif-container {
+      text-align: center; /* Center the GIF */
+      margin-top: 20px; /* Add spacing from the video and image */
+    }
+  </style>
+</head>
+  
+<body>
+<div class="topnav">
+  <a href="index.html">Home</a>
+  <a href="about_me.html">About Me</a>
+  <a class="active" href="#Contact Me">Contact Me</a>
+  <a href="family.html">My Family</a>
+  <a href="friends.html">My Friends</a>
+  <a href="education.html">My Education</a>
+  <a href="personal_interest.html">Personal Interest</a>
+</div>
+
+<div class="social-media-icons">
+  <a href="https://www.instagram.com/nr.aamrh" class="instagram-icon">
+    <i class="fab fa-instagram"></i>
+    <span>Follow me on Instagram</span>
+  </a>
+  <div class="video-container">
+    <!-- Video on the left side -->
+    <video autoplay muted loop>
+      <source src="resource/video/ig.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+  <div class="image-container">
+    <!-- Image on the right side -->
+    <img src="resource/image/ig.jpg" alt="Instagram Icon">
+  </div>
+</div>
+
+<div class="gif-container">
+  <!-- GIF below the video and image -->
+  <img src="resource/gif/tanjiro.gif" alt="Tanjiro Gif" style="width: 50%; max-width: 100%;">
+</div>
+
+<footer>
+  &copy; 2024 Nur Amirah. All rights reserved.
+</footer>
+
+</body>
+</html>
